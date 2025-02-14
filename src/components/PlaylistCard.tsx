@@ -58,6 +58,8 @@ const PlaylistCard: React.FC<PlaylistCardProps> = ({ playlist, onReorder }) => {
                         <option value="byTitle">Por Título</option>
                         <option value="byPublishedAt">Por Data de Publicação</option>
                         <option value="byDuration">Por Duração</option>
+                        <option value="byChannel">Por Canal</option>
+                        <option value="byLanguage">Por Lingua</option>
                     </select>
                     <button onClick={handleConfirm} style={{ marginLeft: '0.5rem' }}>Confirmar</button>
                     <button onClick={handleCancel} style={{ marginLeft: '0.5rem' }}>Cancelar</button>
